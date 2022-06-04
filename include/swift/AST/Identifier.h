@@ -144,7 +144,8 @@ public:
         || (C >= 0x2055 && C <= 0x205E) || (C >= 0x2190 && C <= 0x23FF)
         || (C >= 0x2500 && C <= 0x2775) || (C >= 0x2794 && C <= 0x2BFF)
         || (C >= 0x2E00 && C <= 0x2E7F) || (C >= 0x3001 && C <= 0x3003)
-        || (C >= 0x3008 && C <= 0x3030);
+        || (C >= 0x3008 && C <= 0x3030)
+        || (C >= 0x1D100 && C <= 0x1D1FF);
   }
   
   /// isOperatorContinuationCodePoint - Return true if the specified code point
